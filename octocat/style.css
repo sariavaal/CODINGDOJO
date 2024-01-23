@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  width: 950px;
+  height: 950px;
+  background-color: rgb(93, 150, 204);
+  padding: 20px;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.row img {
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+#column-1 {
+  background-color: blueviolet;
+  flex-grow: 1;
+  padding: 10px;
+  margin: 10px;
+}
+#column-2 {
+  background-color: rgb(232, 94, 174);
+  flex-grow: 1;
+  padding: 10px;
+  margin: 10px;
+}
+
+#column-3 {
+  background-color: rgb(243, 238, 241);
+  flex-grow: 1;
+  padding: 10px;
+  margin: 10px;
+}

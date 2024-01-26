@@ -1,0 +1,57 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: white;
+  color: rgb(5, 93, 193);
+  border-radius: 20px;
+  border: 3px solid rgb(5, 93, 193);
+  padding: 10px;
+  display: block;
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.row {
+  width: 950px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: violet;
+}
+
+.navbar {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h2 {
+  background-color: black;
+  opacity: 0.7;
+  left: 20px;
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
